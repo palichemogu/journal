@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("EmblemaOne-Regular.woff"),
+    url("EmblemaOne-Regular.ttf");
+   }
+body{
+    /* rgb можно задавать в процентах а можно цифрами от 0до255*/
+font-family:Verdana,Geneva, Arial, sans-serif;
+font-size: small;
+}
+h1,h2{
+    color:#02f7ff;
+    /*text-decoration:underline line-through overline; подчеркивание заччеркивание надчеркивание*/
+    border-bottom: thin dotted #888888;
+}
+h1{
+    font-family:"Emblema One",sans-serif;
+    font-size:220%;
+}
+h2{
+    font-weight:normal;
+    font-size: 130%; 
+}
+blockquote{
+    font-style:italic;
+}
+table{
+    margin-left:20px;
+    margin-right:20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse:collapse;
+}
+th,td{
+    border:thin dotted gray;
+    padding:5px;
+}
+caption{
+    font-style:italic;
+    padding-top:8px;
+}
+.rightalign{
+text-align:right;
+}
+.centeralign{
+text-align:center;
+}
+th{
+    background-color:#cc6600;
+}
+.rowcolor{
+    background-color: #fcba7a;
+} 
+/* tr:nth-child(){
+    background-color: #fcba7a;
+} */
+table table th{
+    background-color:white;
+}
+li{
+    list-style-image: url(images/backpack.gif);
+    padding-top:5px;
+    margin-left:20px;
+}
+/*work with fonts
+small-12px обычно
+Выберите ключевое слово (мы рекомендуем small или medium) и укажите его в качестве размера шрифта в правиле для body. Таким образом вы зададите размер 
+шрифта, используемый на вашей странице по умолчанию.
+Задайте размеры шрифтов для остальных элементов относительно размера шрифта 
+элемента body, используя либо проценты, либо em (выбор остается за вами, так как, 
+по сути, это два разных способа выполнения одного и того же действия).
+*/
